@@ -3,7 +3,7 @@
 > Lecturer: Damien Costello     
 > by - [Weichen Wang](https://w326004741.github.io/)
 
-Gesture UI Development Project - B.Sc. (hons) in Software Development
+
 
 #### Remove System Diagnostics Debugger Code:
 ```C#
