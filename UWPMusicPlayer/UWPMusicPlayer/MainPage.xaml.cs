@@ -4,6 +4,7 @@ using System.IO;
 using System.Linq;
 using System.Runtime.InteropServices.WindowsRuntime;
 using UWPMusicPlayer.Models;
+using UWPMusicPlayer.Pages;
 using Windows.Foundation;
 using Windows.Foundation.Collections;
 using Windows.UI.Xaml;
@@ -28,30 +29,54 @@ namespace UWPMusicPlayer
             this.InitializeComponent();
         }
 
-        // Use data binding to bind the menu to the panel
+        /// <summary>
+        ///  Use data binding to bind the menu to the panel 使用数据绑定将菜单绑定到面板上
+        /// </summary>
+        /// <param name="e"></param>
         protected override void OnNavigatedTo(NavigationEventArgs e)
         {
             // NavControl,  FootControl in ItemsBuilder.cs
             this.NavControl.ItemsSource = ItemsBuilder.BuildNavItems();
             this.FootControl.ItemsSource = ItemsBuilder.BuildFootItems();
-            
-            //base.OnNavigatedTo(e);
+            this.MasterFrame.Navigate(typeof(MyMusicPage));
+            this.MusicPlayerFrame.Navigate(typeof(SongPlayPage));
         }
 
-        // Hamburger button click event...  Toggle 切换
+        /// <summary>
+        ///   Hamburger button click event... 汉堡按钮的点击事件。 Toggle 切换 
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void ToggleButton_Click(Object sender, RoutedEventArgs e)
         {
             this.MasterSplitView.IsPaneOpen = !this.MasterSplitView.IsPaneOpen;
         }
 
+        /// <summary>
+        /// Menu Item Click Event 菜单项目点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void NavControl_ItemClick(object sender, ItemClickEventArgs e)
         {
-
+            NavItem item = e.ClickedItem as NavItem;
+            if (item.View != null)
+            {
+                this.MasterFrame.Navigate(item.View, item.Title);
+            }
         }
-
+        /// <summary>
+        /// Menu Foot Item Click Event 菜单底部项目点击事件
+        /// </summary>
+        /// <param name="sender"></param>
+        /// <param name="e"></param>
         private void FootControl_ItemClick(object sender, ItemClickEventArgs e)
         {
-
+            NavItem item = e.ClickedItem as NavItem;
+            if (item.View != null)
+            {
+                this.MasterFrame.Navigate(item.View, item.Title);
+            }
         }
     }
 }
