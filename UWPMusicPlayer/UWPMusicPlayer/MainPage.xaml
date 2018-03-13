@@ -8,8 +8,8 @@
     mc:Ignorable="d">
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
-        <!-- SplitView Properity setting, -->
-        <SplitView x:Name="MasterSplitView" IsPaneOpen="False" DisplayMode="CompactInline" OpenPaneLength="140" Margin="0,0,0,0">
+        <!-- SplitView Properity setting,   PaneBackground="Wheat"-->
+        <SplitView x:Name="MasterSplitView" PaneBackground="Gray"  IsPaneOpen="False" DisplayMode="CompactOverlay" OpenPaneLength="140" Margin="0,0,0,0">
             <SplitView.Resources>
                 <DataTemplate x:Key="NavTemplate"> <!--DataBinding 下面会出现-->
                     <Grid Height="24">
@@ -50,8 +50,16 @@
                 </Grid>
                 
             </SplitView.Pane>
-            <SplitView.Content> <!--??????-->
-                <Frame x:Name="MasterFrame" />
+            <SplitView.Content> <!--Content-->
+                <Grid>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*" MinWidth="320" />
+                        <ColumnDefinition Width="3*" />
+                    </Grid.ColumnDefinitions>
+                    <!--MasterFrame: PlayList Side... MusicPlayerFrame: Music Player Side-->
+                        <Frame x:Name="MasterFrame" Grid.Column="0" />
+                        <Frame x:Name="MusicPlayerFrame" Grid.Column="1" />
+                </Grid>
             </SplitView.Content>
         </SplitView>
     </Grid>
