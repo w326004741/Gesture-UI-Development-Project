@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace UWPMusicPlayer.Models
 {
     /// <summary> 
-    ///  Hamburger Menus Class
+    ///  it Menus Class
     ///  汉堡菜单类
     ///   </summary>
     public class NavItem

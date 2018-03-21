@@ -89,17 +89,39 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .Net Framework and Windows SDK are automatically included -->
+    <None Include="GlobalMediaKeys.myo" />
     <None Include="project.json" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App.xaml.cs">
       <DependentUpon>App.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Converter\MusicConverter.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
     </Compile>
     <Compile Include="Models\ItemsBuilder.cs" />
     <Compile Include="Models\NavItem.cs" />
+    <Compile Include="Models\Song.cs" />
+    <Compile Include="Models\SongManager.cs" />
+    <Compile Include="Pages\FeedbackPage.xaml.cs">
+      <DependentUpon>FeedbackPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\MyMusicPage.xaml.cs">
+      <DependentUpon>MyMusicPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\PlayingPage.xaml.cs">
+      <DependentUpon>PlayingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\RecentlyPage.xaml.cs">
+      <DependentUpon>RecentlyPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SettingPage.xaml.cs">
+      <DependentUpon>SettingPage.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SongPlayPage.xaml.cs">
+      <DependentUpon>SongPlayPage.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -109,6 +131,24 @@
     <None Include="UWPMusicPlayer_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="MusicCollections\Aash Mehta,The Chainsmokers - Clsr %28Aash Mehta Flip%29.mp3" />
+    <Content Include="MusicCollections\Charlie Puth - Attention.mp3" />
+    <Content Include="MusicCollections\Charlie Puth,Selena Gomez - We Don%27t Talk Anymore.mp3" />
+    <Content Include="MusicCollections\Ed Sheeran - Galway Girl.mp3" />
+    <Content Include="MusicCollections\Ed Sheeran - Shape of You.mp3" />
+    <Content Include="MusicCollections\Ed Sheeran - What Do I Know？.mp3" />
+    <Content Include="MusicCollections\Kris Wu - JULY.mp3" />
+    <Content Include="MusicCollections\Li Ren - Chen Tong Xue.mp3" />
+    <Content Include="MusicCollections\Linkin Park - Iridescent.mp3" />
+    <Content Include="MusicCollections\Linkin Park - Leave Out All the Rest %28One More Light Live%29.mp3" />
+    <Content Include="MusicCollections\Lola Coca - GQ.mp3" />
+    <Content Include="MusicCollections\Madilyn Bailey - Havana.mp3" />
+    <Content Include="MusicCollections\Marshmello,Anne-Marie - FRIENDS.mp3" />
+    <Content Include="MusicCollections\Russ - Psycho %28Pt. 2%29.mp3" />
+    <Content Include="MusicCollections\Selena Gomez,Fetty Wap - Same Old Love Remix.mp3" />
+    <Content Include="MusicCollections\Sia,David Guetta,Afrojack - Helium %28Sia vs. David Guetta &amp; Afrojack%29.mp3" />
+    <Content Include="MusicCollections\Thumbnails\MusicLogo.png" />
+    <Content Include="MusicCollections\Vicetone,Dua Lipa - New Rules %28Vicetone Remix%29.mp3" />
     <Content Include="Properties\Default.rd.xml" />
     <Content Include="Assets\LockScreenLogo.scale-200.png" />
     <Content Include="Assets\SplashScreen.scale-200.png" />
@@ -127,7 +167,32 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+    <Page Include="Pages\FeedbackPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\MyMusicPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\PlayingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\RecentlyPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SettingPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Pages\SongPlayPage.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup Condition=" '$(VisualStudioVersion)' == '' or '$(VisualStudioVersion)' &lt; '14.0' ">
     <VisualStudioVersion>14.0</VisualStudioVersion>
   </PropertyGroup>

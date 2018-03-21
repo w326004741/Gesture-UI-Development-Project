@@ -14,27 +14,22 @@ namespace UWPMusicPlayer.Models
         /// song name MP3文件名字
         /// </summary>
         private string _name;
-
         /// <summary>
         /// title  MP3歌曲名字 从MP3文件中读取出来的
         /// </summary>
         private string _title;
-
         /// <summary>
         /// artisits 艺术家
         /// </summary>
         private string _artists;
-
         /// <summary>
         /// ablum 唱片集
         /// </summary>
         private string _ablum;
-
         /// <summary>
         /// cover 封面
         /// </summary>
         private BitmapImage _thumbnail;
-        
         /// <summary>
         /// path
         /// </summary>
@@ -42,8 +37,13 @@ namespace UWPMusicPlayer.Models
         /// <summary>
         /// mp3 file specific default cover MP3文件指定默认的封面
         /// </summary>
-        private const string _thumbnalPath = "ms-appx:///MusicCollections/Thumbnails/NoThumbnail.PNG";
+        private const string _thumbnalPath = "ms-appx:///MusicCollections/Thumbnails/MusicLogo.PNG";
 
+
+
+        /// <summary>
+        /// MP3 file name MP3文件名字
+        /// </summary>
         public string Name // MP3文件的名字
         {
             get { return _name; }
@@ -76,19 +76,27 @@ namespace UWPMusicPlayer.Models
             }
             set { _title = value; }
         }
+        /// <summary>
+        /// Artist 艺术家
+        /// </summary>
         public string Artists
         {
-            get { return _ablum; }
-            set { _ablum = value;}
+            get { return _artists; }
+            set { _artists = value;}
         }
 
+        /// <summary>
+        /// Ablum 唱片集
+        /// </summary>
         public string Ablum
         {
             get { return _ablum; }
             set { _ablum = value; }
         }
 
-
+        /// <summary>
+        /// Thumbnail 封面缩略图
+        /// </summary>
         public BitmapImage Thumbnail
         {
             get
@@ -106,6 +114,9 @@ namespace UWPMusicPlayer.Models
             set { _thumbnail = value; }
         }
 
+        /// <summary>
+        /// Path 歌曲路径
+        /// </summary>
         public string Path
         {
             get { return _path; }

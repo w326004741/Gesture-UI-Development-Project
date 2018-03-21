@@ -9,7 +9,7 @@
 
     <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
         <!-- SplitView Properity setting,   PaneBackground="Wheat"-->
-        <SplitView x:Name="MasterSplitView" PaneBackground="Gray"  IsPaneOpen="False" DisplayMode="CompactOverlay" OpenPaneLength="140" Margin="0,0,0,0">
+        <SplitView x:Name="MasterSplitView" PaneBackground="Gray" OpenPaneLength="140" Margin="0,0,0,0" DisplayMode="CompactOverlay">
             <SplitView.Resources>
                 <DataTemplate x:Key="NavTemplate"> <!--DataBinding 下面会出现-->
                     <Grid Height="24">
