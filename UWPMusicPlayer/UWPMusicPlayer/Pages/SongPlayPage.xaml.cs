@@ -106,6 +106,8 @@ namespace UWPMusicPlayer.Pages
                         GetPreviousSong();
                         PlaySongInternal();
                     }
+                    this.BttnPlay.Visibility = Visibility.Visible;
+                    this.BttnStop.Visibility = Visibility.Collapsed;
                 });
         }
         /// <summary>
@@ -121,6 +123,8 @@ namespace UWPMusicPlayer.Pages
                         GetNextSong();
                         PlaySongInternal();
                     }
+                    this.BttnPlay.Visibility = Visibility.Visible;
+                    this.BttnStop.Visibility = Visibility.Collapsed;
                 });
             
         }
