@@ -42,9 +42,12 @@ The user making a fingers spread and the Music Player to Stop Music.
 4. Myo Sizing Clips(10)
 5. Windows PC or Laptop, Mac(windows virtual machine)
 ## Architecture for the solution
+### Architecture Diagram
+![image](https://github.com/w326004741/Gesture-UI-Development-Project/blob/master/image/3151521984700_.pic.jpg)
 ### Class Diagram
+![image](https://github.com/w326004741/Gesture-UI-Development-Project/blob/master/image/ClassDiagram.jpg)
 
-
+*****
 ## Conclusions & Recommendations
 This latest technology can help us to minimize the reliance on hardware and software for controlling robots and other devices. [Myo Armband](https://www.myo.com/) can easily realize the back screen control computer, in addition to playing computer games, browsing the web, controlling music entertainment and other entertainment activities, and even control the drone. Compared to [Kinect](https://www.xbox.com/en-US/xbox-one/accessories/kinect) and [Leap Motion](https://www.leapmotion.com/?lang=en), the advantage of [Myo](https://www.myo.com/) is that it is not restricted by the specific site and it is more natural to interact. The sensor on the [Myo armband](https://www.myo.com/) is internally equipped with electrodes so that the user can read out the bioelectric activity of the muscle when the user makes a telescopic gesture, thereby determining the intention of the wearer, and then sending the result of the computer processing to the receiver via the low-power **Bluetooth** control equipment. I think that [Siri's voice](https://www.apple.com/ios/siri/) interaction is not perfect for a large number of young people who are accustomed to keyboard input and textual ideograms. In most cases, we still have a good body of limbs and are able to handle them freely. The emergence of [Myo](https://www.myo.com/) is to create new ways of interaction and make today’s everyday technology more natural and intuitive. It is clear that [Myo](https://www.myo.com/) is gradually approaching this point, gradually achieving better human-computer interaction and creating a convenient life for humans.
 
