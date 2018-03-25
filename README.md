@@ -42,8 +42,11 @@ The user making a fingers spread and the Music Player to Stop Music.
 4. Myo Sizing Clips(10)
 5. Windows PC or Laptop, Mac(windows virtual machine)
 ## Architecture for the solution
+### Class Diagram
+
 
 ## Conclusions & Recommendations
+This latest technology can help us to minimize the reliance on hardware and software for controlling robots and other devices. [Myo Armband](https://www.myo.com/) can easily realize the back screen control computer, in addition to playing computer games, browsing the web, controlling music entertainment and other entertainment activities, and even control the drone. Compared to [Kinect](https://www.xbox.com/en-US/xbox-one/accessories/kinect) and [Leap Motion](https://www.leapmotion.com/?lang=en), the advantage of [Myo](https://www.myo.com/) is that it is not restricted by the specific site and it is more natural to interact. The sensor on the [Myo armband](https://www.myo.com/) is internally equipped with electrodes so that the user can read out the bioelectric activity of the muscle when the user makes a telescopic gesture, thereby determining the intention of the wearer, and then sending the result of the computer processing to the receiver via the low-power **Bluetooth** control equipment. I think that [Siri's voice](https://www.apple.com/ios/siri/) interaction is not perfect for a large number of young people who are accustomed to keyboard input and textual ideograms. In most cases, we still have a good body of limbs and are able to handle them freely. The emergence of [Myo](https://www.myo.com/) is to create new ways of interaction and make today’s everyday technology more natural and intuitive. It is clear that [Myo](https://www.myo.com/) is gradually approaching this point, gradually achieving better human-computer interaction and creating a convenient life for humans.
 
 
 
@@ -53,3 +56,8 @@ The user making a fingers spread and the Music Player to Stop Music.
 - [RelativePanel Chinese docs](https://www.jianshu.com/p/338d9046a872)
 - [Myo UWP Tutorial](https://elbruno.com/2016/08/02/myo-windows-10-uwp-apps-myo-and-visual-studio-2015/)
 - [Get the CoreDispatcher(UI)](https://stackoverflow.com/questions/16477190/correct-way-to-get-the-coredispatcher-in-a-windows-store-app)
+- [Myo Offical](https://www.myo.com/)
+- [Kinect Offical](https://www.xbox.com/en-US/xbox-one/accessories/kinect)
+- [Leap Motion Offical](https://www.leapmotion.com/?lang=en)
+- [Siri's Voice Offical](https://www.apple.com/ios/siri/)
+- [Myo: 超越Siri的下一代交互 - Myo Chinese Articles](https://www.jianshu.com/p/2b10742d9639)
