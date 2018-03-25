@@ -4,9 +4,9 @@
 > by - [Weichen Wang](https://w326004741.github.io/)
 
 ## Introduction
-My project is **Universal Windows Platform(UWP) Music Player** with **[Myo Armband](https://www.myo.com/)**. Find out more about universal apps here: https://msdn.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp. 
+The project is **Universal Windows Platform(UWP) Music Player** with **[Myo Armband](https://www.myo.com/)**. Find out more about universal apps here: https://msdn.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp. 
 
-My Project was completed using [Thalmic labs Myo Armband](https://www.myo.com/). The Myo Armband reads the electrical activity of your muscles to control technology with gestures and motion. I use [Myo Armband](https://www.myo.com/) to control the Music Player and do some functions with gestures: **Play▶️, Pause⏸, Stop⏹, Previous⏮ and Next⏭.**
+The Project was completed using [Thalmic labs Myo Armband](https://www.myo.com/). The Myo Armband reads the electrical activity of your muscles to control technology with gestures and motion. I use [Myo Armband](https://www.myo.com/) to control the Music Player and do some functions with gestures: **Play▶️, Pause⏸, Stop⏹, Previous⏮ and Next⏭.**
 
 
 ## Purpose of the application
