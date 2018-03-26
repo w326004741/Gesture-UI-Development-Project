@@ -1,8 +1,9 @@
 # Gesture-UI-Development-Project
 > Module: Gesture UI Development / 4th Year     
 > Lecturer: Damien Costello     
-> by - [Weichen Wang](https://w326004741.github.io/)
+> by - [Weichen Wang](https://w326004741.github.io/)      
 
+- **Video Link** - https://www.youtube.com/watch?v=0i3ls4QD9pc&feature=youtu.be
 ## Introduction
 The project is **Universal Windows Platform(UWP) Music Player** with **[Myo Armband](https://www.myo.com/)**. Find out more about universal apps here: https://msdn.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp. 
 
