@@ -18,6 +18,7 @@ The project is **Universal Windows Platform(UWP) Music Player** with **[Myo Armb
 
 The project was completed using [Thalmic labs Myo Armband](https://www.myo.com/). The Myo Armband reads the electrical activity of your muscles to control technology with gestures and motion. I use [Myo Armband](https://www.myo.com/) to control the Music Player and do some functions with gestures: **Play▶️, Pause⏸, Stop⏹, Previous⏮ and Next⏭.**
 
+For the music player only, the following basic functions have been implemented: **Play▶️, Pause⏸, Stop⏹, Previous⏮, Next⏭, Single Cycle🔂, Sequential Loop🔁, Volume Bar🔊, Song Progress Bar🎵.**
 
 ## Purpose of the application
 The purpose of this application is to demonstrate how to use the [Myo Armband](https://www.myo.com/) to detect the electrical activity of muscles and control gestures and highly sensitive motion sensors detected by proprietary EMG muscle sensors to control the application to perform a series of operations. The [Myo Armband](https://www.myo.com/) has an **Electromyogram (EMG) sensor** that directly senses muscle activity and movement to read muscle activity in a refined manner.
