@@ -4,6 +4,15 @@
 > by - [Weichen Wang](https://w326004741.github.io/)      
 
 - **Video Link** - https://www.youtube.com/watch?v=0i3ls4QD9pc&feature=youtu.be
+## Table of Contents
+1. [Introduction](#introduction)
+2. [Purpose of the application](#purpose-of-the-application)
+3. [Gestures identified as appropriate for this application](#gestures-identified-as-appropriate-for-this-application)
+4. [Hardware used in creating the application](#hardware-used-in-creating-the-application)
+5. [Architecture for the solution](#architecture-for-the-solution)
+6. [Conclusions & Recommendations](#conclusions--recommendations)
+7. [References](#references)
+
 ## Introduction
 The project is **Universal Windows Platform(UWP) Music Player** with **[Myo Armband](https://www.myo.com/)**. Find out more about universal apps here: https://msdn.microsoft.com/en-us/windows/uwp/get-started/whats-a-uwp. 
 
